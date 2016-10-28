@@ -1,38 +1,36 @@
  *{
-	  margin: 0;
-	  padding: 0;
+	margin: 0;
+	padding: 0;
 } 
 
 body {
-		color: #f9f9f9;
-		font-family: "Open Sans";
-		/* font-family: Georgia, serif; */
+	background-color: #f0f0f0;
+	font-family: "Open Sans";
 }
 
 #mainblock {
-        margin: 0 auto;
-        width: 1100px;
-        padding-bottom:50px;
-    /*  height: 100vh; */
-        color: #ffffff;
-        box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+    margin: 0 auto;
+    padding-bottom:50px;
+    width: 1100px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+    background-color: #ffffff;
 }
 
 #header {
-	 margin: 0 0; 
+	margin: 0 0; 
 }
 
 #logo {
-		padding: 35px 0 40px 50px;
-		color: black;
-		font-size: 40px; 
+	padding: 35px 0 40px 50px;
+	color: black;
+	font-size: 40px; 
 }
  
 #header ul {
-    list-style-type: none;
     margin: 0 50px 0 50px;
     padding: 0;
     overflow: hidden;
+    list-style-type: none;
     background-color: #505050;
 }
 
@@ -41,10 +39,10 @@ body {
 }
 
 #header li a {
+    padding: 10px 35px;
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 35px;
     text-decoration: none;
 }
 
@@ -53,9 +51,9 @@ body {
 }
 
 #header .active {
-    background-color: black;
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
+    background-color: black;
 }
 
 #sidebar {
@@ -64,18 +62,18 @@ body {
 }
 
 #sidebar ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 240px;
-    background-color: #ffffff;
     border: 1px solid #c8c8c8;
+    list-style-type: none;
+    background-color: #ffffff;
 }
 
 #sidebar li a {
+    padding: 10px 24px;
     display: block;
     color: #656363;
-    padding: 10px 24px;
     text-decoration: none;
 }
 
@@ -88,14 +86,14 @@ body {
 }
 
 #sidebar li a.acti {
-	  padding: 10px 50px;
+	padding: 10px 50px;
     background-color: #f9f9f9;
     color: black;
 }
 
 #sidebar li a:hover:not(.acti) {
-    background-color: #f9f9f9;
     padding: 10px 50px;
+    background-color: #f9f9f9;
     color: black;
 }
 
@@ -107,21 +105,22 @@ body {
 }
 
 #content p {
-        padding: 40px 110px 40px 24px;
-        font-size: 14px; 
-        line-height: 1.6;
+    padding: 40px 110px 40px 24px;
+    font-size: 14px; 
+    line-height: 1.6;
+    text-align:justify;
 }
 
 #footer {
-		margin: 0 50px 0 40px ;
-        font-size: 13px;
-        color: black;
+	margin: 0 50px 0 40px ;
+    font-size: 13px;
+    color: black;
 }
 
 #footer ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     overflow: hidden;
     background-color: #e1e1e1;
 }
@@ -132,9 +131,9 @@ body {
 }
 
 #footer li a {
+    padding: 13px 48px;
     display: block;
     text-align: center;
-    padding: 13px 48px;
     text-decoration: none;
     color: black;
 }
