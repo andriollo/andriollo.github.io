@@ -1,0 +1,151 @@
+ *{
+	  margin: 0;
+	  padding: 0;
+} 
+
+body {
+		color: #f9f9f9;
+		font-family: "Open Sans";
+		/* font-family: Georgia, serif; */
+}
+
+#mainblock {
+        margin: 0 auto;
+        width: 1100px;
+        padding-bottom:50px;
+    /*  height: 100vh; */
+        color: #ffffff;
+        box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+}
+
+#header {
+	 margin: 0 0; 
+}
+
+#logo {
+		padding: 35px 0 40px 50px;
+		color: black;
+		font-size: 40px; 
+}
+ 
+#header ul {
+    list-style-type: none;
+    margin: 0 50px 0 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #505050;
+}
+
+#header li {
+    float: left;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+#header li a:hover:not(.active) {
+    background-color: black;
+}
+
+#header .active {
+    background-color: black;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+#sidebar {
+		margin: 40px 0 0 50px;
+		float: left;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+}
+
+#sidebar li a {
+    display: block;
+    color: #656363;
+    padding: 10px 24px;
+    text-decoration: none;
+}
+
+ #sidebar li {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+#sidebar li:last-child {
+    border-bottom: none;
+}
+
+#sidebar li a.acti {
+	  padding: 10px 50px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+#sidebar li a:hover:not(.acti) {
+    background-color: #f9f9f9;
+    padding: 10px 50px;
+    color: black;
+}
+
+#content {
+  	margin-top: 40px;
+    margin-left: 335px;
+    overflow: hidden;
+    color: black;
+}
+
+#content p {
+        padding: 40px 110px 40px 24px;
+        font-size: 14px; 
+        line-height: 1.6;
+}
+
+#footer {
+		margin: 0 50px 0 40px ;
+        font-size: 13px;
+        color: black;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e1e1e1;
+}
+
+#footer li {
+    float: left;
+    text-align: center;
+}
+
+#footer li a {
+    display: block;
+    text-align: center;
+    padding: 13px 48px;
+    text-decoration: none;
+    color: black;
+}
+
+#footer li a:hover:not(.active) {
+    text-decoration: underline;
+}
+#footer p {
+    padding: 13px 48px;
+}
+
+#footer .active {
+    text-decoration: underline;
+}
