@@ -4,7 +4,7 @@
 } 
 
 body {
-	background-color: #f0f0f0;
+	background-color: #f9f9f9;
 	font-family: "Open Sans";
 }
 
@@ -31,8 +31,11 @@ body {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background-color: #505050;
+    background: -webkit-linear-gradient(left, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    background: -o-linear-gradient(left, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+    background: linear-gradient(to right, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 }
+
 
 #header li {
     float: left;
@@ -41,24 +44,22 @@ body {
 #header li a {
     padding: 10px 35px;
     display: block;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
     color: white;
     text-align: center;
     text-decoration: none;
 }
 
-#header li a:hover:not(.active) {
-    background-color: black;
-}
-
-#header .active {
+#header li a:hover {
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
-    background-color: black;
+    background-color: #444444;
 }
 
 #sidebar {
-		margin: 40px 0 0 50px;
-		float: left;
+	margin: 40px 0 0 50px;
+	float: left;
 }
 
 #sidebar ul {
@@ -67,7 +68,7 @@ body {
     width: 240px;
     border: 1px solid #c8c8c8;
     list-style-type: none;
-    background-color: #ffffff;
+    background-color: #f9f9f9; 
 }
 
 #sidebar li a {
@@ -85,13 +86,7 @@ body {
     border-bottom: none;
 }
 
-#sidebar li a.acti {
-	padding: 10px 50px;
-    background-color: #f9f9f9;
-    color: black;
-}
-
-#sidebar li a:hover:not(.acti) {
+#sidebar li a:hover {
     padding: 10px 50px;
     background-color: #f9f9f9;
     color: black;
@@ -138,13 +133,9 @@ body {
     color: black;
 }
 
-#footer li a:hover:not(.active) {
+#footer li a:hover {
     text-decoration: underline;
 }
 #footer p {
     padding: 13px 48px;
-}
-
-#footer .active {
-    text-decoration: underline;
 }
