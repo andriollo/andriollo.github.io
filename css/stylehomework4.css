@@ -3,6 +3,10 @@
 	padding: 0;
 } 
 
+body {
+    background-color: #0c739f;
+}
+
 .background {
      position: relative;
 }
@@ -198,6 +202,7 @@
     float: left;
     width: 173px;
     height: 522px;
+    overflow: hidden;
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
 }
@@ -211,7 +216,8 @@
     background: #edeef0;
     padding: 10px 20px 10px 15px; 
     width: 173px;
-    height: 522px; 
+    height: 522px;
+    overflow: hidden;
     float: right;
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
